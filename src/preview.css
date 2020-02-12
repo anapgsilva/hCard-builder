@@ -43,10 +43,10 @@
 .photo {
   width: 20%;
   height: 120px;
-  border: 1px solid #000;
+  border: 1px solid rgb(189, 197, 200);
   position: absolute;
   right: 20px;
-  top: 30px;
+  top: 20px;
 }
 
 .photo img {

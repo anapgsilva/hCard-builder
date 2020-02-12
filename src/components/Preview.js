@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../headshot.png';
 
 const Preview = (props) => {
 
@@ -13,13 +14,15 @@ const Preview = (props) => {
 
         <div className="header">
           <h1>{userInfo['given name']} {userInfo.surname}</h1>
-          {userInfo.imgURL !== undefined
+
+          <div className="photo">
+            {userInfo.imgURL !== undefined
             ?
-            <div className="photo">
-              <img src={userInfo.imgURL} alt="profile"/>
-            </div>
-            : ''
-          }
+            <img src={userInfo.imgURL} alt="profile"/>
+            :
+            <img src={headshot} alt="avatar"/>
+            }
+          </div>
         </div>
 
         <div className="info">
