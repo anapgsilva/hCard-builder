@@ -28,34 +28,36 @@ const Preview = (props) => {
         <div className="info">
           <div>
             <label>EMAIL</label>
-            {userInfo.email}
+            <span>{userInfo.email}</span>
           </div>
 
           <div>
             <label>PHONE</label>
-            {userInfo.phone}
+            <span>{userInfo.phone}</span>
           </div>
 
           <div>
             <label>ADDRESS</label>
-            {userInfo['house name or #']} {userInfo.street}
+            <span>{userInfo['house name or #']} {userInfo.street}</span>
           </div>
 
           <div>
             <label></label>
-            {userInfo.suburb}
-            {userInfo.suburb && userInfo.state ?
-              ", "
-              :
-              ""
-            }
-            {userInfo.state}
+            <span>{userInfo.suburb}
+                {userInfo.suburb && userInfo.state ?
+                  ", "
+                  :
+                  ""
+                }
+                {userInfo.state}</span>
           </div>
 
-          <div>
-            <label>POSTCODE <span>{userInfo.postcode}</span></label>
+          <div className="postcode-country" >
+            <label className="postcode">POSTCODE</label>
+            <span>{userInfo.postcode}</span>
 
-            <label>COUNTRY <span>{userInfo.country}</span></label>
+            <label className="country">COUNTRY</label>
+            <span>{userInfo.country}</span>
           </div>
 
         </div>

@@ -56,32 +56,36 @@
 
 .info {
   background-color: #fff;
-  height: 200px;
+  height: 230px;
   padding: 30px;
 }
 
 .info div {
-  height: 1.2em;
+  height: 1.3em;
   border-bottom: 1px solid rgb(189, 197, 200);
-  margin: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  flex-wrap: wrap;
   font-family: "Times New Roman";
+  position: relative;
 }
 
 .info label {
-  display: inline-block;
-  width: 45%;
   color: rgb(58, 79, 98);
   font-family: Arial, sans-serif;
   font-weight: bold;
-  padding-right: 10px;
   font-size: 0.8em;
+  display: inline;
+  min-width: 20%;
 }
 
-label span {
-  font-family: "Times New Roman";
+.info span {
   color: #000;
+  font-size: 1.3em;
+  text-overflow: ellipsis;
+  min-width: 80px;
+  position: relative;
+  bottom: 7px;
 }

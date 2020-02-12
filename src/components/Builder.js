@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import InputForm from './InputForm';
 
 
 class Builder extends Component {
@@ -46,28 +46,21 @@ class Builder extends Component {
         <h5>PERSONAL DETAILS</h5>
 
         <div className="details">
-          {personal.map( detail => {
-            return (
-              <div className="inputs" key={detail} >
-                <label>{detail.toUpperCase()}</label>
-                <input type="text" name={detail} onChange={this.handleInput}/>
-              </div>)
-
-          })
-          }
+          <InputForm detail='given name' saveInput={this.handleInput}/>
+          <InputForm detail='surname' saveInput={this.handleInput}/>
+          <InputForm detail='email' saveInput={this.handleInput}/>
+          <InputForm detail='phone' saveInput={this.handleInput}/>
         </div>
 
         <h5>ADDRESS</h5>
 
         <div className="details">
-          {address.map( detail => {
-            return (
-              <div className="inputs" key={detail} >
-                <label>{detail.toUpperCase()}</label>
-                <input type="text" name={detail} onChange={this.handleInput}/>
-              </div>)
-
-          })}
+          <InputForm detail='house name or #' saveInput={this.handleInput}/>
+          <InputForm detail='street' saveInput={this.handleInput}/>
+          <InputForm detail='suburb' saveInput={this.handleInput}/>
+          <InputForm detail='state' saveInput={this.handleInput}/>
+          <InputForm detail='postcode' saveInput={this.handleInput}/>
+          <InputForm detail='country' saveInput={this.handleInput}/>
         </div>
 
 
