@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hCard-builder/precache-manifest.0dba449425f317c24d981f03abdca450.js"
+  "/hCard-builder/precache-manifest.4507dd4f474d3c3c25a677c4decdce0c.js"
 );
 
 self.addEventListener('message', (event) => {
