@@ -72,9 +72,9 @@ class Builder extends Component {
 
 
         <div className="buttons">
-          <a href="http" id="avatar-btn" onClick={this.handleFileSelect} >Upload Avatar</a>
+          <a href="http" className="avatar btn" onClick={this.handleFileSelect} >Upload Avatar</a>
 
-          <button id="create-btn">Create hCard</button>
+          <button className="create btn">Create hCard</button>
         </div>
 
         <input type="file" id="file" ref="fileUploader" onChange={this.saveFile} style={{display: "none"}}/>

@@ -49,11 +49,13 @@
   flex-direction: column;
   min-width: 45%;
   color: rgb(58, 79, 98);
-  font-size: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .inputs input {
+  margin-top: 5px;
   font-size: 2em;
   padding: 0.3em;
   font-family: "Times New Roman";
@@ -67,25 +69,24 @@
   margin-top: 20px;
 }
 
-#avatar-btn {
+.btn {
   color: #fff;
-  background-color: rgb(118, 142, 156);
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-weight: bold;
   width: 45%;
   border-radius: 5px;
   min-height: 2em;
+}
+
+.avatar {
+  background-color: rgb(118, 142, 156);
   text-align: center;
   text-decoration: none;
   padding-top: 15px;
 }
 
-#create-btn {
+.create {
   background-color: rgb(69, 170, 224);
-  color: #fff;
-  font-size: 1.2em;
-  width: 45%;
-  border-radius: 5px;
-  min-height: 2em;
 }
 
 .selector {
