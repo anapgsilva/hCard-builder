@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import InputForm from '../InputForm/InputForm';
 import './builder.css';
 
-
-
 class Builder extends Component {
   constructor(props){
     super(props);
@@ -61,7 +59,6 @@ class Builder extends Component {
           <InputForm detail='postcode' saveInput={this.handleInput}/>
           <InputForm detail='country' saveInput={this.handleInput}/>
         </div>
-
 
         <div className="buttons">
           <a href="http" className="avatar btn" onClick={this.handleFileSelect} >Upload Avatar</a>

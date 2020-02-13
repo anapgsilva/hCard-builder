@@ -8,14 +8,11 @@ const InputForm = (props) => {
   }
 
   return (
-
     <div className="inputs" >
       <label>{props.detail.toUpperCase()}</label>
       <input type="text" name={props.detail} onChange={handleInput}/>
     </div>
-
   );
-
 }
 
 export default InputForm;

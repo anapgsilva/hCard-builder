@@ -2,7 +2,6 @@ import React from 'react';
 import headshot from '../../headshot.png';
 import './preview.css';
 
-
 const Preview = (props) => {
 
   const userInfo = props.userInfo;
