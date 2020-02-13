@@ -6,10 +6,9 @@ class Builder extends Component {
   constructor(props){
     super(props);
     this.state = {
-      imgURL: ''
     };
   }
-
+  //save input data in state
   handleInput = (event) => {
     this.setState({[event.target.name]: event.target.value});
     this.props.showPreview({[event.target.name]: event.target.value});

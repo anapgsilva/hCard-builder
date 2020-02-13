@@ -9,11 +9,11 @@ class App extends Component {
     this.state = {
     };
   }
-
+  //save data from builder into state to be previewed
   previewInfo = (info) => {
     this.setState({...info});
   }
-
+  //save photo into state to be previewed
   savePhoto = (imgURL) => {
     this.setState({imgURL});
   }
