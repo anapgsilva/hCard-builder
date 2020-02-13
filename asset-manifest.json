@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hCard-builder/static/css/main.0c907ab4.chunk.css",
-    "main.js": "/hCard-builder/static/js/main.bfb60451.chunk.js",
-    "main.js.map": "/hCard-builder/static/js/main.bfb60451.chunk.js.map",
+    "main.css": "/hCard-builder/static/css/main.1965940e.chunk.css",
+    "main.js": "/hCard-builder/static/js/main.fb7d665e.chunk.js",
+    "main.js.map": "/hCard-builder/static/js/main.fb7d665e.chunk.js.map",
     "runtime-main.js": "/hCard-builder/static/js/runtime-main.b1a3652b.js",
     "runtime-main.js.map": "/hCard-builder/static/js/runtime-main.b1a3652b.js.map",
     "static/js/2.5573a554.chunk.js": "/hCard-builder/static/js/2.5573a554.chunk.js",
     "static/js/2.5573a554.chunk.js.map": "/hCard-builder/static/js/2.5573a554.chunk.js.map",
     "index.html": "/hCard-builder/index.html",
-    "precache-manifest.e1de9573f202c2ad48ad776c2634274a.js": "/hCard-builder/precache-manifest.e1de9573f202c2ad48ad776c2634274a.js",
+    "precache-manifest.b4de864048f7ac6ec0219d79d63b2ded.js": "/hCard-builder/precache-manifest.b4de864048f7ac6ec0219d79d63b2ded.js",
     "service-worker.js": "/hCard-builder/service-worker.js",
-    "static/css/main.0c907ab4.chunk.css.map": "/hCard-builder/static/css/main.0c907ab4.chunk.css.map",
+    "static/css/main.1965940e.chunk.css.map": "/hCard-builder/static/css/main.1965940e.chunk.css.map",
     "static/js/2.5573a554.chunk.js.LICENSE.txt": "/hCard-builder/static/js/2.5573a554.chunk.js.LICENSE.txt",
     "static/media/headshot.png": "/hCard-builder/static/media/headshot.36eb862f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b1a3652b.js",
     "static/js/2.5573a554.chunk.js",
-    "static/css/main.0c907ab4.chunk.css",
-    "static/js/main.bfb60451.chunk.js"
+    "static/css/main.1965940e.chunk.css",
+    "static/js/main.fb7d665e.chunk.js"
   ]
 }
