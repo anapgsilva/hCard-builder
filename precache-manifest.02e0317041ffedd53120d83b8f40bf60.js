@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55e409f138b8d98cec90c207aee82129",
+    "revision": "60cda384c3da7f77f43d74be2dd1c840",
     "url": "/hCard-builder/index.html"
   },
   {
-    "revision": "1cb79dabd8af7d50fd1a",
+    "revision": "6d9b4a60d62046f98b76",
     "url": "/hCard-builder/static/css/main.77be15bb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hCard-builder/static/js/2.5573a554.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cb79dabd8af7d50fd1a",
-    "url": "/hCard-builder/static/js/main.fb7d665e.chunk.js"
+    "revision": "6d9b4a60d62046f98b76",
+    "url": "/hCard-builder/static/js/main.69db290e.chunk.js"
   },
   {
     "revision": "649b195d0dc22650860a",
