@@ -10,25 +10,17 @@ class Builder extends Component {
     };
   }
 
-  buildFileSelector = () => {
-    return (
-      <input type="file" onClick={this.saveFile} multiple="multiple"/>
-    );
-  }
-
   handleInput = (event) => {
     this.setState({[event.target.name]: event.target.value});
     this.props.showPreview({[event.target.name]: event.target.value});
   }
-
+  //opens file selector window
   handleFileSelect = (event) => {
     event.preventDefault();
     this.refs.fileUploader.click();
   }
-
+  //send imgURL to parent to be displayed in preview
   saveFile = (event) => {
-    console.log('uploader', this.refs);
-    console.log(event.target.files[0]);
     const file = event.target.files[0];
     const imgURL = URL.createObjectURL(file);
     this.setState({imgURL});
