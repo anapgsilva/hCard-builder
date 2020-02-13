@@ -12,12 +12,12 @@ Only built with JS/CSS/HTML, using REACT.JS.
 npm install
 ```
 
-### running
+### Running
 ```bash
 npm run start
 ```
 
-### deployment
+### Deployment
 ```bash
 npm run deploy
 ```
