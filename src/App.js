@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-import './preview.css';
-import Builder from './components/Builder';
-import Preview from './components/Preview';
+import Builder from './components/Builder/Builder';
+import Preview from './components/Preview/Preview';
 
 class App extends Component {
   constructor(){

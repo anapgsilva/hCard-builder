@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import InputForm from './InputForm';
+import InputForm from '../InputForm/InputForm';
+import './builder.css';
+
 
 
 class Builder extends Component {
@@ -36,9 +38,6 @@ class Builder extends Component {
   }
 
   render(){
-    const personal = ['given name', 'surname', 'email', 'phone'];
-    const address = ['house name or #', 'street', 'suburb', 'state', 'postcode', 'country'];
-
     return (
       <div className="builder">
         <h1>hCard Builder</h1>

@@ -1,0 +1,18 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  min-width: 45%;
+  color: rgb(58, 79, 98);
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.inputs input {
+  margin-top: 5px;
+  font-size: 2em;
+  padding: 0.3em;
+  font-family: "Times New Roman";
+  border: 1px solid rgb(189, 197, 200);
+  border-radius: 3px;
+}
