@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79a095e00008380ba1fd7ef115608a25",
+    "revision": "ee79655c470bce5dabd36baa174068eb",
     "url": "/hCard-builder/index.html"
   },
   {
